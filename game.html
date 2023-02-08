@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sudoku Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="header">Sudoku</h1>
+
+        <h2 id="subTitle">Game Level - </h2>
+
+        <p id="labels">
+            <input class="buttonInput" id="start" type="button" value="START" onclick="createGameWithDifficulty()">
+
+            <div id="container">
+                <div id="timer">00:00</div>
+            </div>
+        </p>
+
+        <div id="board"></div>
+        <br>
+        <div id="digits"></div>
+
+        <p>
+            <input class="buttonInput" id="finish" type="button" value="Finish" onclick="isWinningBoard()">
+
+            <input class="buttonInput" id="again" type="button" value="Again" onclick="playAgain()">
+        </p>
+
+    </body>
+</html>
+
+<script type="text/javascript" src="gameindex.js"></script>

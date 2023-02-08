@@ -1,0 +1,201 @@
+/*------------------------------------------------------------------------------------*/
+/*All ID*/
+/*------------------------------------------------------------------------------------*/
+
+#header {
+    text-align: center;
+}
+
+#subTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#board {
+    width: 0px;
+    height: 0px;
+    background-color:cornflowerblue;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    visibility: hidden;
+}
+
+#digits {
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    visibility: hidden;
+}
+
+#instructions {
+    text-align: center;
+    color: black;
+}
+
+#username {
+    text-align: center;
+    color: darkblue;
+}
+
+#password {
+    text-align: center;
+    font-size: 26px;
+    color: darkblue;
+}
+
+#enter {
+    text-align: center;
+    font-size: 26px;
+    background-color:linen;
+    color: darkblue;
+}
+
+#container {
+    visibility: hidden;
+    text-align: center;
+    font-size: 26px;
+    color: darkblue;
+}
+
+#errors {
+    color: coral;
+}
+
+/*------------------------------------------------------------------------------------*/
+/*-All Classes-*/
+/*------------------------------------------------------------------------------------*/
+
+.slectOption {
+    font-size: 18px;
+    background-color: aqua;
+    color: darkblue;
+    text-align: center;
+}
+
+.buttonInput {
+    text-align: center;
+    color: darkblue;
+    font-size: 20px;
+    background-color:linen;
+}
+
+.tile {
+    width: 48px; 
+    height: 48px;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    width: 44px; 
+    height: 44px;
+    border: 1px solid black;
+    background-color:cornflowerblue;
+    margin: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected {
+    background-color:lightslategray;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+}
+
+/*------------------------------------------------------------------------------------*/
+/*-All Elements-*/
+/*------------------------------------------------------------------------------------*/
+
+p {
+    text-align: center;
+    font-size: 26px;
+    color: darkblue;
+}
+
+h1 {
+    color: #2246aa;
+    font-size: 38px;
+}
+
+h2 {
+    color: #2246aa;
+    font-size: 30px;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*------------------------------------------------------------------------------------*/
+
+@media (min-width: 800px) {
+
+    #instructions {
+        font-size: 20px;
+    }
+
+    #username {
+        font-size: 32px;
+    }
+
+    #password {
+        font-size: 32px;
+    }
+    
+    #enter {
+        font-size: 32px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    #instructions {
+        font-size: 14px;
+    }
+
+    #username {
+        font-size: 26px;
+    }
+    
+    #password {
+        font-size: 26px;
+    }
+    
+    #enter {
+        font-size: 26px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+}
+

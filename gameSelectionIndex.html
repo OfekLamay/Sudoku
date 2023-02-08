@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Instructions & Difficulty Selection</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="header">Game Selection</h1>
+
+        <h2 id="subTitle">Game Instructions</h2>
+
+        <p id="instructions">
+            Welcome to OL sudoku game! Your goal is to complete the puzzle.
+            <br>
+            You must have each one from the numbers 1-9 in each line, column and 3x3 block (marked on the board).
+            <br>
+            You can choose 1 of 3 regular difficulties:
+            <br>
+            &emsp; ● Easy (already 75% completed), 10 minutes to play.
+            <br>
+            &emsp; ● Medium (already 50% completed), 20 minutes to play.
+            <br>
+            &emsp; ● Hard (already 25% completed), 30 minutes to play.
+            <br>
+            In addition to that, you can play a custom game, where you can determine the percentage of board to complete and time to play!
+            <br>
+            Good luck and have fun! :D
+        </p>
+
+        <p>
+            <input class="buttonInput" id="easy" type="button" value="Easy" onclick="openGame('Easy')">
+
+            <input class="buttonInput" id="medium" type="button" value="Medium" onclick="openGame('Medium')">
+
+            <input class="buttonInput" id="hard" type="button" value="Hard" onclick="openGame('Hard')">
+
+            <input class="buttonInput" id="custom" type="button" value="Custom" onclick="openGame('Custom')">
+        </p>
+
+    </body>
+</html>
+
+<script type="text/javascript" src="gameindex.js"></script>
